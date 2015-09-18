@@ -3,8 +3,7 @@ title: "A Sample R Markdown Template"
 author: "Vivek Patil"
 date: "9/15/2015"
 output:
-  html_document:
-    toc: yes
+  word_document: default
   pdf_document:
     fig_caption: yes
     fig_crop: yes
@@ -14,7 +13,8 @@ output:
     number_sections: yes
     toc: yes
     toc_depth: 3
-  word_document: default
+  html_document:
+    toc: yes
 email: patil@jepson.gonzaga.edu
 abstract: The objective of this document's template is to demonstrate some basics
   of the combination of R and markdown and how they can be knitted together using
